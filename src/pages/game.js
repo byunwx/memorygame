@@ -22,7 +22,7 @@ class Game extends Component {
 
   cardClicked =(id) =>{
     console.log("card clicked id: "+id);
-    if (this.state.clickedCard.indexOf(id)>0) {
+    if (this.state.clickedCard.indexOf(id)>=0) {
       console.log("you lose");
       this.setState({
         score: 0,
