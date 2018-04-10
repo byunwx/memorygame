@@ -1,0 +1,12 @@
+.jumbotron {
+  min-height: 300px;
+  padding-top: 220px;
+  color: white;
+  background: url("https://files1.porsche.com/filestore/image/multimedia/none/jdp-2016-modelseries-911targa-intro-02/normal/a55b9a2d-a8f5-11e7-b591-0019999cd470/porsche-normal.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.jumbotron h1, .jumbotron h2{
+  color: #fff338;
+}

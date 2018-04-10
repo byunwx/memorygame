@@ -1,0 +1,62 @@
+[
+  {
+    "url": "./image/audi.jpeg",
+    "clickedCard":false,
+    "id":1
+  },
+  {
+    "url": "./image/bentley.jpeg",
+    "clickedCard":false,
+    "id":2
+  },
+  {
+    "url": "./image/benz.jpeg",
+    "clickedCard":false,
+    "id":3
+  },
+  {
+    "url": "./image/bmw.jpeg",
+    "clickedCard":false,
+    "id":4
+  },
+  {
+    "url": "./image/fiat.jpeg",
+    "clickedCard":false,
+    "id":5
+  },
+  {
+    "url": "./image/ford.jpeg",
+    "clickedCard":false,
+    "id":6
+  },
+  {
+    "url": "./image/honda.png",
+    "clickedCard":false,
+    "id":7
+  },
+  {
+    "url": "./image/hyundai.jpeg",
+    "clickedCard":false,
+    "id":8
+  },
+  {
+    "url": "./image/lotus.jpeg",
+    "clickedCard":false,
+    "id":9
+  },
+  {
+    "url": "./image/porsche.jpeg",
+    "clickedCard":false,
+    "id":10
+  },
+  {
+    "url": "./image/toyota.png",
+    "clickedCard":false,
+    "id":11
+  },
+  {
+    "url": "./image/vw.jpeg",
+    "clickedCard":false,
+    "id":12
+  }
+]
