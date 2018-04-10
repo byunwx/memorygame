@@ -17,7 +17,6 @@ class Game extends Component {
 
   componentDidMount(){
     this.setState({cards: images})
-    this.sortCards();
   }
 
   cardClicked =(id) =>{
@@ -55,6 +54,7 @@ class Game extends Component {
   }
 
 render() {
+  this.sortCards();
   return(
     <Container fluid>
     <Nav score={this.state.score} topScore={this.state.topScore}/>
