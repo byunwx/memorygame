@@ -33,7 +33,7 @@ class Game extends Component {
     }else {
       this.state.clickedCard.push(id);
       this.setState({score:this.state.score+1}, ()=>{
-        if (this.state.topScore<=this.state.score) {
+        if (this.state.topScore<this.state.score) {
           this.setState({
             topScore: this.state.score,
             msg: "GREAT! NEW TOPSCORE!"
