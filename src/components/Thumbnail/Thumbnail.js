@@ -1,6 +1,6 @@
 import React from "react";
 import "./Thumbnail.css";
-import { Col, Row, Container } from "../Grid";
+import { Col } from "../Grid";
 
 // The Thumbnail component renders a div that uses some CSS to render a background image
 // It will always keep square proportions at any size without the image warping
