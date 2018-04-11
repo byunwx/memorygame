@@ -26,6 +26,7 @@ class Game extends Component {
         clickedCard:[],
         msg:"CONGRATES YOU WON THE GAME!"
       })
+      this.sortCards();
     }else if (this.state.clickedCard.indexOf(id)>=0) {
       this.setState({
         score: 0,
