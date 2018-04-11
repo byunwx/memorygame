@@ -20,8 +20,13 @@ class Game extends Component {
   }
 
   cardClicked =(id) =>{
-
-    if (this.state.clickedCard.indexOf(id)>=0) {
+    if (this.state.score==12) {
+      this.setState({
+        score: 0,
+        clickedCard:[],
+        msg:"CONGRATES YOU WON THE GAME!"
+      })
+    }else if (this.state.clickedCard.indexOf(id)>=0) {
       this.setState({
         score: 0,
         clickedCard:[],
