@@ -20,14 +20,7 @@ class Game extends Component {
   }
 
   cardClicked =(id) =>{
-    if (this.state.score==12) {
-      this.setState({
-        score: 0,
-        clickedCard:[],
-        msg:"CONGRATES YOU WON THE GAME!"
-      })
-      this.sortCards();
-    }else if (this.state.clickedCard.indexOf(id)>=0) {
+    if (this.state.clickedCard.indexOf(id)>=0) {
       this.setState({
         score: 0,
         clickedCard:[],
@@ -37,7 +30,14 @@ class Game extends Component {
     }else {
       this.state.clickedCard.push(id);
       this.setState({score:this.state.score+1}, ()=>{
-        if (this.state.topScore<this.state.score) {
+        if (this.state.score==12) {
+          this.setState({
+            score: 0,
+            topScore: 12,
+            clickedCard:[],
+            msg:"CONGRATES YOU WON THE GAME!"
+          })
+        }else if (this.state.topScore<this.state.score) {
           this.setState({
             topScore: this.state.score,
             msg: "GREAT! NEW TOPSCORE!"
@@ -47,6 +47,7 @@ class Game extends Component {
             msg: "You guessed correctly"
           })
         }
+
       });
       this.sortCards();
     }
